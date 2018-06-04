@@ -104,7 +104,7 @@ public class FragCorreo extends Fragment implements View.OnClickListener {
 
     private boolean EvaluarDatos(String correo, String titulo){
         boolean b = true;
-        if(!correo.contains("@") || !correo.contains(".")|| correo.length()<=5){ b = false;
+        if(!correo.contains("@") || !correo.contains(".") || correo.contains(" ") || correo.length()<=5){ b = false;
             Snackbar.make(mainLayout, "Anota un correo válido", Snackbar.LENGTH_LONG).show();
         }
         if(titulo.length()<=3){ b = false;
