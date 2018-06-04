@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Prueba Tecnica</string>
+    <string name="numeros">Prueba de números</string>
+    <string name="title_dashboard">>Prueba de nombres</string>
+    <string name="nombres">Prueba de nombres</string>
+    <string name="title_activity_bumon_play_quiz">BumonPlayQuiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blumon_play_quiz">Blumon Pay Quiz</string>
+    <string name="presentacion_bplay">Bienvenido al Quiz de Bumon Play</string>
+
+    <string name="txt_default">Default</string>
+    <string name="quiz_numerico_1">Ingresa el número que desees y dale click en agregar</string>
+    <string name="quiz_numerico_2">Ahora ingresa otro numero. Para terminar ingresa 0</string>
+    <string name="quiz_numerico_alerta">Debes de ingresar un numero para agregarlo</string>
+    <string name="quiz_numerico_sumatotal">La suma total es:</string>
+
+    <string name="quiz_nombre_1">Ingresa un nombre y dale click en agregar para guardarlo</string>
+    <string name="quiz_nombre_2">Ingresa otro nombre o escribe "Bumon Play" para finalizar</string>
+    <string name="quiz_nombre_alerta">Debes de escribir un nombre de mínimo 3 letras antes de agregarlo</string>
+    <string name="quiz_nombre_alerta_faltan">Debes de agregar al menos un nombre antes de continuar</string>
+    <string name="quiz_nombre_lista">Los nombres ingresados son:</string>
+
+
+    <string name="suma">Total</string>
+    <string name="almacenar">Almacenar</string>
+    <string name="keyword">Bumon Play</string>
+    <string name="datos_hasta_ahora">Estos son los datos que has guardado hasta el momento</string>
+    <string name="agregar">Agregar</string>
+    <string name="guardar_json">Guardar en JSON</string>
+    <string name="enviar_correo_json">Envía los datos a un email</string>
+    <string name="enviar">Enviar</string>
+    <string name="titulo_mensaje">Título del mensaje:</string>
+    <string name="correo_electronico">Correo electrónico:</string>
+    <string name="enviar_correo">Enviar Email &#8230;</string>
+    <string name="error_cliente_no_instalado">Error no hay una app de manejo de mensajes instalada</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="json">Ver JSON</string>
+    <string name="correo">Enviar Correo</string>
+
+</resources>

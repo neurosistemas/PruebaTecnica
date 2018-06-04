@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz_nom_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/quiz_nom_titulo"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="452dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/quiz_nombre_1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_titulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+
+    <EditText
+        android:id="@+id/quiz_nom_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="32dp"
+        android:digits="áéíóúabcdefghijklmnñopqrstuvwxyz ÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+        android:ems="10"
+        android:hint="3 letras mínimo"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/sp_contenido"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_lista_personas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_nom_titulo" />
+
+    <Button
+        android:id="@+id/quiz_nom_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradiente_azul_01"
+        android:padding="@dimen/padding_boton"
+        android:text="@string/agregar"
+        android:textColor="@color/coloBlanco"
+        android:textSize="@dimen/sp_boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_lista_personas" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_lista_personas"
+        android:layout_width="301dp"
+        android:layout_height="159dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/quiz_nom_agregar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_nom_edittext" />
+</android.support.constraint.ConstraintLayout>

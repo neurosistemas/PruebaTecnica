@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_recycler_layout"
+    android:gravity="center"
+    android:background="@drawable/gradiente_blanco_01"
+    >
+
+    <TextView
+        android:id="@+id/item_recycler_posicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/item_margen_general"
+        android:layout_marginEnd="@dimen/item_margen_derecha"
+        android:layout_marginLeft="@dimen/item_margen_general"
+        android:layout_marginRight="@dimen/item_margen_derecha"
+        android:layout_marginStart="@dimen/item_margen_general"
+        android:layout_marginTop="@dimen/item_margen_general"
+        android:gravity="center"
+        android:textSize="@dimen/sp_contenido"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/item_recycler_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_contenido"
+        />
+</android.support.v7.widget.LinearLayoutCompat>

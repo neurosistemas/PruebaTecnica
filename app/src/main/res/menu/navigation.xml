@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_numerica"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/numeros" />
+
+    <item
+        android:id="@+id/navigation_nombres"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/nombres" />
+    <item
+        android:id="@+id/navigation_json"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/json" />
+    <item
+        android:id="@+id/navigation_correo"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/correo" />
+
+</menu>
